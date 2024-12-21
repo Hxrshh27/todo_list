@@ -1,0 +1,98 @@
+/* App.css */
+
+/* Center align the entire application */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Style the h1 heading */
+  h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Row styles */
+  .row {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  input::placeholder {
+    color: #6c757d;
+  }
+  
+  /* Buttons */
+  button.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  button.btn-light {
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: #6c757d;
+    border-radius: 5px;
+  }
+  
+  button.btn-light:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+  }
+  
+  /* Task text styling */
+  .col-6 {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212529;
+  }
+  
+  .col-4 {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #495057;
+  }
+  
+  .col-2 {
+    text-align: right;
+  }
+  
